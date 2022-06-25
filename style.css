@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+
+}
+
+nav {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* 가로정렬 바꾸는건 justify-content로 바꾼다
+   세로정렬에서 가운데로 오게하는 align-item center 사용
+   (nav에서 글씨들이 가운데로 오게하는법 )*/
+.logosize {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+a {
+    color: #eee;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #74c0fc;
+}
+
+
+span {
+    color: #eee;
+}
+
+.nav-item {
+    padding: 23px 15px;
+}
+
+
+
+
+
+main {
+    height: 900px;
+
+    background: #3a7bd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #3a6073);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3a7bd5, #3a6073);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    justify-content: space-around;
+}
+
+.mainsize {
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    float: left;
+    margin-left: 100px;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 200px;
+    font-weight: 800;
+    text-align: center;
+    font-size: 3rem;
+    padding-right: 300px;
+
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    padding-right: 300px;
+    font-weight: 500;
+
+}
+
+.button-area {
+    text-align: center;
+
+}
+
+
+
+.button-style {
+    padding: 14px 32px;
+    background-color: #1ed760;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #2941ab;
+    font-weight: 700;
+    border: none;
+}
+
+
+
+.button-style:hover {
+    transform: scale(1.2);
+    background-color: #74c0fc;
+}
+
+.div-area {
+    padding-top: 50px;
+}
+
+.main-p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    padding-left: 350px;
+
+}
+
+.p-size {
+    font-size: 50px;
+}
+
+
+footer {
+    height: 530px;
+    background-color: black;
+    justify-content: flex;
+}
